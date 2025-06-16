@@ -49,3 +49,20 @@ DELETE http://localhost:8000/tasks/{task_id}
 
 Выход:
 На фронтенде удалить токен и перенаправить на страницу логина.
+
+Локальный запуск через Docker
+
+1: Клонировать репозиторий
+git clone https://github.com/Baga942/todo_test.git
+cd todo_test
+
+2: Запустить Docker контейнеры
+docker-compose up --build
+
+После запуска:
+- Бэкенд доступен на: http://localhost:8000
+- Фронтенд доступен на: http://localhost:3000
+
+
+
+
